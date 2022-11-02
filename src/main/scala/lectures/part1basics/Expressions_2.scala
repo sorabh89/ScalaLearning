@@ -4,18 +4,13 @@ object Expressions_2 extends App {
   val x = 1 + 2
   println(x)
 
-//  val aCondition = true
-//  //Instructions (Do) vs Expressions (Value)
-//
-//  //If Expression and not an If condition
-//  val aCondVal = if(aCondition) 5 else 3
-//  println(aCondVal)
-//  println(if(aCondition) 5 else 3)
-
-
   val aCondition = true
+  //Instructions (Do) vs Expressions (Value)
+
+  //If Expression and not an If condition
   val aCondVal = if(aCondition) 5 else 3
   println(aCondVal)
+  println(if(aCondition) 5 else 3)
 
   //---------
 
@@ -23,11 +18,15 @@ object Expressions_2 extends App {
   while (i < 10) {
     println(i)
     i += 1
-  }   //Never write like this in Scala
+  }
+
+
+  //Never write like this in Scala
 
   //Everything in scala is an Expression!
 
   var aVariable = 3
+
   val aWeirdValue = (aVariable = 3)  // Unit type in scala is void
 
   //side effects : println(), whiles, reassigning
