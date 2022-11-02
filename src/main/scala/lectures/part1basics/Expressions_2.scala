@@ -40,7 +40,7 @@ object Expressions_2 extends App {
   val aCodeBlock = {                          //Type of aCodeBlock is String as the last expression
     val y = 2
     val z = y + 1
-    if (z > 2) "hello" else "goodbye"
+    if (z > 2) "hello" else 0
   }
 
 
