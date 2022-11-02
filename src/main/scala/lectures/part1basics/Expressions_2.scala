@@ -29,7 +29,7 @@ object Expressions_2 extends App {
 
   val aWeirdValue = (aVariable = 3)  // Unit type in scala is void
   print(aWeirdValue)
-  
+
   //side effects : println(), whiles, reassigning
   // everything in scala is an expression so everything returns a value (Unit is used as a void return type)
 
@@ -37,7 +37,7 @@ object Expressions_2 extends App {
 
   //Code Blocks
 
-  val aCodeBlock = {    //Type of aCodeBlock is String as the last expression
+  val aCodeBlock = {                          //Type of aCodeBlock is String as the last expression
     val y = 2
     val z = y + 1
     if (z > 2) "hello" else "goodbye"
