@@ -28,6 +28,5 @@ object CBNvsCBV_5 extends App {
     println(x)
 
   printByVal(10, printSomething())
-
-  printByName(10, printSomething())    // Call by name delays the execution till its used, hence printSomething will not be called as it is not used
+  printByName(10, printSomething())                   // Call by name delays the execution till its used, hence printSomething will not be called as it is not used
 }
