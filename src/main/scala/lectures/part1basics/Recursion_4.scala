@@ -19,7 +19,7 @@ object Recursion_4 extends App {
   def optimizedFactorial(n: Int): BigInt = {
     def factHelper(x: Int, accumulator: BigInt): BigInt =
       if (x <= 1) accumulator
-      else factHelper(x-1, x * accumulator)       // Tail Recursion = use recursive call as the last expression
+      else factHelper(x-1, x * accumulator)                              // Tail Recursion = use recursive call as the last expression
 
     factHelper(n, 1)
   }
