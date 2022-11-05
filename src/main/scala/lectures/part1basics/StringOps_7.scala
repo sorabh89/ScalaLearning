@@ -11,13 +11,9 @@ object StringOps_7 extends App {
   //scala specific string opertions
 
   val aNum: String = "4"
-  val num: Int = aNum.toInt
-
-  println(num)
   println('a' +: aNum :+ 'z')
 
   var lst = List(1,2,3)
-  println(lst)
   println('a' +: lst :+ 'z')
 
   println(str.reverse)
