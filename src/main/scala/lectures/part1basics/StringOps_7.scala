@@ -16,6 +16,10 @@ object StringOps_7 extends App {
   println(num)
   println('a' +: aNum :+ 'z')
 
+  var lst = List(1,2,3)
+  println(lst)
+  println('a' +: lst :+ 'z')
+
   println(str.reverse)
   println(str.take(2))
 
